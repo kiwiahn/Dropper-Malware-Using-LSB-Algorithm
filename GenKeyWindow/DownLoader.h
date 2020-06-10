@@ -1,0 +1,12 @@
+#pragma once
+#include <iostream>
+#include <tchar.h>
+#include <Windows.h>
+
+#ifndef DOWNLOAD
+#define DOWNLOAD
+
+std::string Downloader(std::string link); 
+
+#endif 
+
